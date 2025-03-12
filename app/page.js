@@ -264,7 +264,7 @@ export default function Home() {
                     
                     <h2 className="text-3xl font-bold text-black mb-2">Congratulations!</h2>
                     <p className="text-pink-100/80 mb-8 text-lg">
-                      You've unlocked this exclusive offer:
+                      You&apos;ve unlocked this exclusive offer:
                     </p>
                     
                     <CouponCard coupon={coupon} />

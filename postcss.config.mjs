@@ -1,3 +1,6 @@
+// postcss.config.mjs
+import tailwindForms from '@tailwindcss/forms';
+
 export default {
   plugins: {
     '@tailwindcss/postcss': {
@@ -68,7 +71,7 @@ export default {
         },
       },
       plugins: [
-        require('@tailwindcss/forms'),
+        tailwindForms,
       ],
     },
     autoprefixer: {},
